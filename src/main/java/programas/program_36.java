@@ -16,7 +16,8 @@ public class program_36 {
         
         double [] temperature = new double [365];
         
-      temperature 
-        
+      System.out.println(temperature[0]);
+      System.out.println(temperature.length);  
+      System.out.println("show memory addresses "+temperature);
  }
 }
