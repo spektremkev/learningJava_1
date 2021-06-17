@@ -14,10 +14,20 @@ import java.util.Scanner;
 public class program_36 {
     public static void main(String[] args) {
         
-        double [] temperature = new double [365];
+        double [] space = new double [365];
         
-      System.out.println(temperature[0]);
-      System.out.println(temperature.length);  
-      System.out.println("show memory addresses "+temperature);
+      System.out.println(space[0]);
+      System.out.println(space.length);  
+      System.out.println("show memory addresses "+tspace);
+      
+      //for standard 
+        for (int i = 0; i < space.length; i++) {
+                System.out.println(space[i]);
+        }
+      System.out.println("for starting of the version 5.1");
+        for (double temp : space) {
+            System.out.println(temp);
+        }
+      
  }
 }
