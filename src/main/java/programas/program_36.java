@@ -18,7 +18,7 @@ public class program_36 {
         
       System.out.println(space[0]);
       System.out.println(space.length);  
-      System.out.println("show memory addresses "+tspace);
+      System.out.println("show memory addresses "+space);
       
       //for standard 
         for (int i = 0; i < space.length; i++) {
