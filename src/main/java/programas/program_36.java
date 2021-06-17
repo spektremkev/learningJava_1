@@ -13,6 +13,10 @@ import java.util.Scanner;
  */
 public class program_36 {
     public static void main(String[] args) {
-       
+        
+        double [] temperature = new double [365];
+        
+      temperature 
+        
  }
 }
