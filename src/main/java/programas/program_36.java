@@ -27,6 +27,7 @@ public class program_36 {
       System.out.println("for starting of the version 5.1");
         for (double temp : space) {
             System.out.println(temp);
+            
         }
       
  }
