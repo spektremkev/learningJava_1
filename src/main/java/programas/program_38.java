@@ -32,6 +32,7 @@ public class program_38 {
         }
     System.out.println(" For Each");
     
+        //only in version 5 
         // for(int space : space) {
        //     System.out.println(space);
       //  }
