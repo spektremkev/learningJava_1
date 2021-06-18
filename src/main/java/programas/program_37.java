@@ -5,7 +5,7 @@
  */
 package programas;
 
-import java.util.Scanner;
+import java.util.Random;
 
 /**
  *
@@ -13,10 +13,42 @@ import java.util.Scanner;
  * headquarters 
  */
 public class program_37 {
-     double [][] space = new double [365][];
+    
+    
+    public static void main(String[] args) {
+        
+
+        double [][] spac = new double [365][365];
      
-     for (int i = 0; i < space.length; i++) {
-                System.out.println(space[i]);
+       Random spacr = new Random();
+       
+     for (int i = 0; i < spac.length; i++) {
+         for (int j = 0; j < spac[i].length; j++) {
+             spac[i][j] = spacr.nextInt();
+         }
+             int j = 0;
+               System.out.println("numeber - " + spac[i][j]);
+        }
+     //size check
+    int bigger = 0 ;
+    int line = 0;
+    int column = 0;
+    
+     for (int i = 0; i < spac.length; i++) {
+         for (int j = 0; j < spac[i].length; j++) {
+             int[][] sapc = null;
+    
+             if (sapc[i][j] > bigger) {
+                 bigger = (int) spac[i][j];
+                 line = i;
+                 column = j;
+             }
+         }
         }
      
+     System.out.println(bigger);
+     System.out.println(line);
+     System.out.println(column);
+     
+    }
 }

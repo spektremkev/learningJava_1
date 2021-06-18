@@ -6,6 +6,7 @@
 package programas;
 
 import java.util.Scanner;
+import java.util.Random;
 
 /**
  *
@@ -15,7 +16,8 @@ public class program_36 {
     public static void main(String[] args) {
         
         double [] space = new double [365];
-        
+         Random spacr = new Random();
+         
       System.out.println(space[0]);
       System.out.println(space.length);  
       System.out.println("show memory addresses "+space);
